@@ -1,0 +1,55 @@
+.cart-meals {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow: auto;
+    color: #5a1;
+    max-height: 20rem;
+    overflow: scroll;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.actions .order-button:hover,
+.actions .order-button:active {
+    background-color: #1ad251;
+    border-color: #5a1a01;
+    color: white;
+} 
+.actions .close-button:hover,
+.actions .close-button:active {
+    background-color: #df4d4d;
+    color: white;
+}
+
+.actions .close-button {
+    color: #1f0d06;
+    border: red 1px solid;
+}
+
+.actions .order-button {
+    background-color: #21981f;
+    color: white;
+}

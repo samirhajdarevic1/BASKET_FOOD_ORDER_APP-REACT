@@ -1,0 +1,8 @@
+.main-image {
+    width: 96vw;
+    opacity: 0.3;
+    /* z-index: -3; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,47 @@
+.meals-summary {
+  background: linear-gradient(to bottom, #f5af19, #f12711);
+  position: relative;
+  width: 26%;
+  margin: auto;
+  text-align: center;
+  margin-top: -33rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 229px;
+  padding: 4rem;
+  max-width: 24rem;
+  min-width: 20rem;
+  box-shadow: grey 2px 3px 37px 10px;
+}
+.meals-summary p {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: infinite;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+/* The animation code */
+@keyframes example {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 20px;
+  }
+}

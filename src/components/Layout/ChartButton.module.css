@@ -1,0 +1,26 @@
+.chart-button {
+  font-size: inherit;
+  background: yellow;
+  width: 12rem;
+  height: 3.5rem;
+  margin: 1rem 4.5rem;
+  border-radius: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: grey 6px 5px 19px;
+}
+.meals-quantity {
+  width: 2rem;
+  height: 2rem;
+  font-size: inherit;
+  margin: 1rem;
+  border-radius: 24px;
+  background: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
